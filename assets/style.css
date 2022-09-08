@@ -4,3 +4,40 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+}
+
+main{
+    background-color: black;
+}
+
+.container{
+    width: 80%;
+    height: 100vh;
+    margin: 2rem auto;
+} 
+
+.taking_part{
+    display: flex;
+    
+}
+
+.participant{
+    width: calc((100% / 12)* 7);
+}
+
+.member{
+    margin: 2px;
+    display: inline-block;
+    position: relative;
+}
+
+.member .username{
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 5px;
+}
