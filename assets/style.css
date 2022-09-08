@@ -75,12 +75,24 @@ nav{
     color: #4BC800;
 }
 
-.settings{
+.settings,
+.microphone,
+.webcam{
     display: flex;
+}
+
+.microphone,
+.webcam{
+    padding: 0.5rem;
 }
 
 .icon{
     text-align: center;
+    padding-right: 0.5rem;
+}
+
+.chevron{
+    align-self: center;
 }
 
 
