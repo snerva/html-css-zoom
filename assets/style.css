@@ -14,14 +14,13 @@ main{
 
 .container{
     width: 80%;
-    height: 100vh;
+    
     margin: 0 auto;
     padding: 4rem 0 2rem;
 } 
 
 .taking_part{
     display: flex;
-    
 }
 
 .participant{
