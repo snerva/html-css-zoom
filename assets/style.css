@@ -71,8 +71,12 @@ nav{
     justify-content: space-between;
 }
 
-.share{
+.share .icon{
     color: #4BC800;
+}
+
+.share p{
+    color: white;
 }
 
 .settings,
@@ -93,6 +97,15 @@ nav{
 
 .chevron{
     align-self: center;
+}
+
+.commands,
+.commands .share{
+    display: flex;
+}
+
+.command{
+    padding: 0.5rem;
 }
 
 
