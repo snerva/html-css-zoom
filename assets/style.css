@@ -6,6 +6,7 @@
 
 body{
     color: white;
+    font-family: 'Montserrat', sans-serif;;
 }
 
 img{
@@ -108,10 +109,8 @@ nav{
     padding: 0.5rem;
 }
 
-
 .end_meeting{
     color: red;
     background-color: #4a4a4a;
-    padding: 5px;
-
+    padding: 1rem 0.5rem 0;
 }
