@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    color: white;
+}
+
 img{
     max-width: 100%;
 }
@@ -22,7 +26,7 @@ main{
 
 .cell,
 .maximize{
-    background-color: rgb(90, 87, 87);
+    background-color: #4a4a4a;
     padding: 5px;
     border-radius: 5px;
     margin: 0 0.25rem;
@@ -31,9 +35,8 @@ main{
 
 .container{
     width: 80%;
-    
     margin: 0 auto;
-    padding: 4rem 0 2rem;
+    padding: 3rem 0 2rem;
 } 
 
 .taking_part{
@@ -57,4 +60,33 @@ main{
     color: white;
     background-color: rgba(0, 0, 0, 0.45);
     padding: 5px;
+}
+
+footer{
+    background-color: #222222;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.share{
+    color: #4BC800;
+}
+
+.settings{
+    display: flex;
+}
+
+.icon{
+    text-align: center;
+}
+
+
+.end_meeting{
+    color: red;
+    background-color: #4a4a4a;
+    padding: 5px;
+
 }
